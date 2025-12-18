@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Umar Shaheen | Cybersecurity & AI Audio Research</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Portfolio of Umar Shaheen – cybersecurity and AI audio watermarking researcher, software engineer, and problem solver."
+  />
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <div class="nav-left">
+        <div class="nav-logo"><img src="file.png"></div>
+        <div class="nav-title">
+          <span class="nav-title-main">Umar Shaheen</span>
+          <span class="nav-title-sub">International Cybersecurity Graduate</span>
+        </div>
+      </div>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div>
+        <p class="hero-kicker">Cybersecurity · AI Audio · Research</p>
+        <h1 class="hero-title" id="hero-heading">
+          Hi, I’m <span>Umar Shaheen</span>.
+        </h1>
+        <p class="hero-sub">
+          I’m a cybersecurity and AI audio watermarking researcher based in Perth, Australia,
+          completing an Honours degree in Advanced Computer Science (International Cybersecurity).
+          I build systems that protect intellectual property in generative models, explore
+          agent-based simulations, and enjoy breaking and fixing software along the way.
+        </p>
+
+        <div class="hero-tags">
+          <span class="tag-pill">AI audio watermarking & fingerprinting</span>
+          <span class="tag-pill">Cybersecurity & penetration testing</span>
+          <span class="tag-pill">Machine learning & data science</span>
+          <span class="tag-pill">Python · PyTorch · Neo4j</span>
+          <span class="tag-pill">UWA · Kaya HPC</span>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            View projects
+            <span class="btn-icon">↘</span>
+          </a>
+          <!-- TODO: Replace '#' with actual CV URL -->
+          <a href="#" class="btn btn-ghost">
+            Download CV
+            <span class="btn-icon">⬇</span>
+          </a>
+        </div>
+
+        <div class="scroll-hint">
+          <span class="scroll-dot"></span>
+          <span>Scroll to explore my work</span>
+        </div>
+      </div>
+
+      <aside class="hero-card" aria-label="Research snapshot">
+        <div class="hero-card-inner">
+          <div class="hero-card-label">Current focus</div>
+          <h2 class="hero-card-title">Protecting generative audio models</h2>
+          <p class="hero-card-text">
+            My Honours research looks at watermarking and fingerprinting techniques to detect
+            stolen or misused AI audio models. I work with the IDEAW watermarking framework, Meta's MusicGen and contrastive
+            learning to make AI intellectual property protection practical.
+          </p>
+
+          <div class="hero-metrics" aria-hidden="true">
+            <div class="metric">
+              <div class="metric-label">Deep learning models</div>
+              <div class="metric-value">IDEAW · MusicGen</div>
+            </div>
+            <div class="metric">
+              <div class="metric-label">Domains</div>
+              <div class="metric-value">Watermarks · IP</div>
+            </div>
+            <div class="metric">
+              <div class="metric-label">Tooling</div>
+              <div class="metric-value">PyTorch · Python</div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="about" aria-labelledby="about-heading">
+      <div class="section-header">
+        <div>
+          <p class="section-kicker">About</p>
+          <h2 class="section-title" id="about-heading">Who I am</h2>
+        </div>
+      </div>
+
+      <div class="about-grid">
+        <article class="card about-text">
+          <p>
+            I’m in my final year of a <strong>Bachelor of Advanced Computer Science</strong> at
+            the <strong>University of Western Australia</strong>, majoring in
+            <strong>International Cybersecurity</strong>. Over the past few years I’ve balanced
+            deep technical work in AI audio watermarking and machine learning with hands-on
+            experience in cybersecurity, software engineering, and leadership.
+          </p>
+          <p>
+            My Honours dissertation focuses on using <strong>model fingerprinting</strong> and
+            <strong>watermarking</strong> to detect stolen or misused generative audio models.
+            I build and analyse pipelines that embed robust watermarks into audio, fine-tune
+            models like MusicGen, and evaluate how well those marks survive real-world attacks.
+          </p>
+          <p>
+            Outside of research, I’ve worked on projects ranging from
+            <strong>agent-based simulations of the Australian housing market</strong> to
+            <strong>Neo4j-backed family tree visualisations</strong> and
+            <strong>gym and housing app concepts</strong> that take ideas from whiteboard to
+            prototype.
+          </p>
+
+        </article>
+
+        <aside class="card card-muted">
+          <ul class="about-list">
+            <li>
+              <strong>Location:</strong> Perth, Western Australia
+            </li>
+            <li>
+              <strong>Degree:</strong> BSc Advanced Computer Science (Hons),
+              International Cybersecurity major
+            </li>
+            <li>
+              <strong>Research area:</strong> AI audio watermarking & model fingerprinting
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-heading">
+      <div class="section-header">
+        <div>
+          <p class="section-kicker">Skills</p>
+          <h2 class="section-title" id="skills-heading">What I work with</h2>
+        </div>
+      </div>
+
+      <div class="skills-grid">
+        <article class="card card-muted">
+          <h3 class="skills-title">Security & Cyber</h3>
+          <p class="skills-caption">
+            From penetration testing exercises to secure design and risk-based testing.
+          </p>
+          <div class="pill-row">
+            <span class="pill">Penetration testing exercises</span>
+            <span class="pill">Vulnerable VM design (SQLi, web vulns)</span>
+            <span class="pill">Threat modelling & risk assessment</span>
+            <span class="pill">Network & web security</span>
+            <span class="pill">Security testing (ISP, MC/DC, property-based)</span>
+          </div>
+        </article>
+
+        <article class="card card-muted">
+          <h3 class="skills-title">Machine Learning & Data</h3>
+          <p class="skills-caption">
+            Practical ML for real datasets, with a focus on audio and evaluation.
+          </p>
+          <div class="pill-row">
+            <span class="pill">Python · PyTorch</span>
+            <span class="pill">Audio models (IDEAW, MusicGen)</span>
+            <span class="pill">Contrastive/self-supervised learning</span>
+            <span class="pill">HPC workflows (UWA Kaya)</span>
+          </div>
+        </article>
+
+        <article class="card card-muted">
+          <h3 class="skills-title">Software & Systems</h3>
+          <p class="skills-caption">
+            Building and testing systems from backend scripts to interactive apps.
+          </p>
+          <div class="pill-row">
+            <span class="pill">Python · Java</span>
+            <span class="pill">SQL · SQLite · Neo4j</span>
+            <span class="pill">Flask APIs & scripts</span>
+            <span class="pill">React Native (Expo)</span>
+            <span class="pill">Docker basics</span>
+            <span class="pill">Git & GitHub · CI (GitHub Actions)</span>
+            <span class="pill">Linux & shell scripting</span>
+          </div>
+        </article>
+
+        <article class="card card-muted">
+          <h3 class="skills-title">Research & Soft Skills</h3>
+          <p class="skills-caption">
+            Communicating complex ideas and leading teams under pressure.
+          </p>
+          <div class="pill-row">
+            <span class="pill">Literature reviews (IEEE style)</span>
+            <span class="pill">Technical writing & presentations</span>
+            <span class="pill">Experimental design & analysis</span>
+            <span class="pill">Team leadership (Target Australia)</span>
+            <span class="pill">Client communication</span>
+            <span class="pill">Community & social impact mindset</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-heading">
+      <div class="section-header">
+        <div>
+          <p class="section-kicker">Projects</p>
+          <h2 class="section-title" id="projects-heading">Selected work</h2>
+        </div>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-inner">
+            <p class="project-tagline">Honours Research</p>
+            <h3 class="project-title">
+              IDEAW Audio Watermarking Pipeline & MusicGen Fine-Tuning
+            </h3>
+            <p class="project-meta">
+              2024–2025 · UWA · Supervised research project
+            </p>
+            <p class="project-desc">
+              Adapted the IDEAW (Invertible Dual-Embedding Audio Watermarking) framework to
+              embed robust watermark bits into large music datasets. Built batch pipelines
+              for embedding, extraction, and attack simulation; fine-tuned MusicGen-small
+              on watermarked datasets and measured watermark retention under compression
+              and noise.
+            </p>
+            <div class="project-tags">
+              <span class="pill">IDEAW</span>
+              <span class="pill">MusicGen</span>
+              <span class="pill">Python</span>
+              <span class="pill">Audio processing</span>
+              <span class="pill">Experiment automation</span>
+            </div>
+            <div class="project-footer">
+              <span></span>
+              <a href="#" class="project-link">
+                View code (private for now) <span>↗</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-inner">
+            <p class="project-tagline">Simulation</p>
+            <h3 class="project-title">
+              Agent-Based Model of the Australian Housing Market
+            </h3>
+            <p class="project-meta">
+              2025 · Python · Computational Modelling
+            </p>
+            <p class="project-desc">
+              Implemented an agent-based housing market with households, banks and houses to
+              study the impact of interest rate shocks on affordability, prices, and market
+              dynamics over decades. Analysed affordability indices, savings behaviour, and
+              rental income under different policy and shock scenarios.<br><br>
+            </p>
+            <div class="project-tags">
+              <span class="pill">Python</span>
+              <span class="pill">Agent-based modelling</span>
+              <span class="pill">Data visualisation</span>
+              <span class="pill">Economic simulation</span>
+            </div>
+            <div class="project-footer">
+              <span></span>
+              <a href="https://github.com/andy4930/CITS4403/blob/main/notebooks/market_analysis.ipynb" class="project-link">
+                Simulation notebook <span>↗</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-inner">
+            <p class="project-tagline">Product Concept</p>
+            <h3 class="project-title">
+              Swipe-Based Housing Market Discovery
+            </h3>
+            <p class="project-meta">
+              2025 · Product design · Mobile concept
+            </p>
+            <p class="project-desc">
+              Designed a mobile app concept that lets users swipe through housing listings
+              with rich filters and matching logic. Explored architecture using containers,
+              cloud scaling, and cost-efficient growth from MVP to large user bases.
+            </p><br>
+            <div class="project-tags">
+              <span class="pill">Product design</span>
+              <span class="pill">React Native (concept)</span>
+              <span class="pill">Docker & scaling strategy</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-inner">
+            <p class="project-tagline">In Progress</p>
+            <h3 class="project-title">
+              Gym Performance Tracker with AI-Driven Insights
+            </h3>
+            <p class="project-meta">
+              2025 · Side project
+            </p>
+            <p class="project-desc">
+              Concept for a gym app that logs sets, reps, and weight and uses an LLM-powered
+              backend to surface trends, deload suggestions, and progression plans. Focused
+              on clean interfaces, data modelling, and lightweight AI integration rather
+              than reinventing core models.
+            </p>
+            <div class="project-tags">
+              <span class="pill">React Native (planned)</span>
+              <span class="pill">API & backend design</span>
+              <span class="pill">LLM integration</span>
+              <span class="pill">Data analytics</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-inner">
+            <p class="project-tagline">Full-Stack</p>
+            <h3 class="project-title">
+              stud.e — AI-Enhanced Flashcard Learning Platform
+            </h3>
+            <p class="project-meta">
+              2024 · Web app
+            </p>
+            <p class="project-desc">
+              Developed a study platform that allows users to create, search, and study
+              flashcard sets across subjects. Integrated AI to automatically generate
+              flashcards from prompts and topics, focusing on fast iteration, clean UX,
+              and practical use of language models to enhance learning.
+            </p>
+            <div class="project-tags">
+              <span class="pill">Web development</span>
+              <span class="pill">HTML</span>
+              <span class="pill">CSS</span>
+              <span class="pill">JavaScript</span>
+              <span class="pill">Search System</span>
+              <span class="pill">AI content generation</span>
+            </div>
+            <div class="project-footer">
+              <span></span>
+              <a href="https://github.com/JoelRaju403/agileproject" class="project-link">
+                View code <span>↗</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-inner">
+            <p class="project-tagline">Full-Stack</p>
+            <h3 class="project-title">
+              Dehdashti Graph – Interactive Family Tree with Neo4j
+            </h3>
+            <p class="project-meta">
+              2024 · Web app · Neo4j
+            </p>
+            <p class="project-desc">
+              Created a web application for a client that visualises a rich family tree as an interactive
+              graph. Backed by Neo4j, the site lets users explore relationships, paths,
+              and generations with clear layout and responsive UI. As well as interact with
+              other family members through member 'pages'.  
+            </p>
+            <div class="project-tags">
+              <span class="pill">Neo4j</span>
+              <span class="pill">Web development</span>
+              <span class="pill">Data visualisation</span>
+              <span class="pill">Graph databases</span>
+            </div>
+            <div class="project-footer">
+              <span></span>
+              <a class="project-link">
+                Code currently private <span></span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-inner">
+            <p class="project-tagline">Completed</p>
+            <h3 class="project-title">
+              Intentionally Vulnerable Virtual Machine (CTF-Style Lab)
+            </h3>
+            <p class="project-meta">
+              2024 · University security project
+            </p>
+            <p class="project-desc">
+              Designed and built an intentionally vulnerable Linux-based virtual machine
+              for hands-on penetration testing practice. The environment includes a range
+              of network-based weaknesses, web application vulnerabilities, privilege
+              escalation paths, and reverse engineering challenges, requiring full-system
+              enumeration and chained exploitation to achieve compromise.
+            </p>
+
+            <div class="project-tags">
+              <span class="pill">Penetration testing</span>
+              <span class="pill">Network exploitation</span>
+              <span class="pill">Web vulnerabilities</span>
+              <span class="pill">Privilege escalation</span>
+              <span class="pill">Reverse engineering</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" aria-labelledby="experience-heading">
+      <div class="section-header">
+        <div>
+          <p class="section-kicker">Experience</p>
+          <h2 class="section-title" id="experience-heading">Where I’ve contributed</h2>
+        </div>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <header class="timeline-header">
+            <div>
+              <div class="timeline-role">Cybersecurity Intern</div>
+              <div class="timeline-org">St Patrick’s Community Support Centre</div>
+            </div>
+            <div class="timeline-date">Fremantle · Internship</div>
+          </header>
+          <div class="timeline-body">
+            Supported a community-focused organisation by helping assess and improve their
+            cybersecurity posture. Worked on practical security tasks while being mindful of
+            limited resources and the social impact of technology.
+          </div>
+          <div class="timeline-tags">
+            <span>Cybersecurity</span>
+            <span>Risk awareness</span>
+            <span>Community impact</span>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <header class="timeline-header">
+            <div>
+              <div class="timeline-role">Team Leader / Department Manager</div>
+              <div class="timeline-org">Target Australia</div>
+            </div>
+            <div class="timeline-date">Retail · Leadership</div>
+          </header>
+          <div class="timeline-body">
+            Led and coordinated teams in a high-pressure retail environment. Balanced
+            customer needs, team wellbeing, and operational targets which are experiences that now
+            underpin how I manage projects and work with stakeholders in technical settings.
+          </div>
+          <div class="timeline-tags">
+            <span>Leadership</span>
+            <span>Team coordination</span>
+            <span>Communication</span>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <header class="timeline-header">
+            <div>
+              <div class="timeline-role">Cybersecurity & ML Student</div>
+              <div class="timeline-org">University of Western Australia</div>
+            </div>
+            <div class="timeline-date">2021–2025</div>
+          </header>
+          <div class="timeline-body">
+            Developed a strong foundation in computer science, cybersecurity, and machine
+            learning through Honours-level research, group projects, and advanced coursework.
+            Frequently took on roles involving experimental design, implementation, and
+            presentation.
+          </div>
+          <div class="timeline-tags">
+            <span>Advanced CS</span>
+            <span>International Cybersecurity</span>
+            <span>Research & communication</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <div class="section-header">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2 class="section-title" id="contact-heading">Let’s talk</h2>
+        </div>
+      </div>
+
+      <div class="card contact-card">
+        <div class="contact-main">
+          <div class="contact-items">
+            <div>
+              <div class="contact-item-label">Email</div>
+              <div class="contact-item-value">
+                <a href="mailto:umar.shaheen93@gmail.com">umar.shaheen93@gmail.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-row">
+            <a href="https://linkedin.com/in/umar-shaheen" class="social-link">LinkedIn</a>
+            <a href="https://github.com/UmarShaheen03" class="social-link">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      © <span id="year"></span> Umar Shaheen · Built with clean HTML & CSS
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
